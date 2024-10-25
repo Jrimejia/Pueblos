@@ -1,0 +1,143 @@
+
+
+
+/*ORIGINAL*/
+
+.t-cen {
+    text-align: center;
+}
+
+
+.mar-top {
+    margin-top: 85px;
+}
+
+.mar-bot {
+    margin-bottom: 25px;
+}
+
+.active {
+    color: #1266f1 !important;
+}
+
+.bg-image {
+    background: linear-gradient(90deg, rgb(63, 64, 66) 0%, rgb(100, 104, 112), rgb(109, 117, 134) 68%, rgb(73, 74, 82) 100%);
+    height: 300px;
+}
+
+.mask {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.bg-body-tertiary {
+    background-color: rgb(199, 197, 197);
+}
+
+
+.description {
+    margin-top: 50px;
+    margin-left: 350px;
+    
+}
+
+.description .info {
+    margin-top: 60px;
+}
+
+.description img {
+    
+    padding: 10px 10px 20px 10px;
+    width: 290px;
+    border-radius: 200px;
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.skill .progress,
+.progress-bar {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.portafolio {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* MODIFICAR EL TAMAÑO DE LAS IMAGENES DE LOS PRODUCTOS CON EL WIDTH - REM */
+.portafolio .card {
+    margin-top: 40px;
+    width: 21rem;
+}
+/* MODIFICAR EL TAMAÑO DE LAS IMAGENES DE LOS PRODUCTOS CON EL WIDTH - REM */
+
+
+
+.experiencia img {
+    margin-right: 15px;
+    background-color: #f8f9ff;
+}
+
+.videos {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.videos iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 230px;
+}
+
+@media (max-width: 768px) {
+    .description{
+        margin: 10px;
+    }
+
+    .description .info {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .description .img{
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .description img{
+        width: 80vw;
+    }
+
+    .mar-top {
+        margin-top: 25px;
+    }
+
+    .skills {
+        padding: 0px 30px;
+    }
+
+    .portafolio .col-md{
+        padding: 0px 0px;
+    }
+
+    .portafolio .card {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .videos {
+        padding: 0px 30px;
+    }
+
+    .videos iframe {
+        margin-bottom: 20px;
+        height: 180px;
+    }
+}
+
